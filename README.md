@@ -1,4 +1,6 @@
-In this project, let's build a **Meme Generator** app by applying the concepts we have learned till now.
+# Meme Generator
+
+In this project, I have completed the implementation of a **Meme Generator** app.
 
 ### Refer to the image below:
 
@@ -18,28 +20,19 @@ In this project, let's build a **Meme Generator** app by applying the concepts w
 
 </details>
 
-### Set Up Instructions
-
-<details>
-<summary>Click to view</summary>
-
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
-</details>
-
 ### Completion Instructions
 
 <details>
-<summary>Functionality to be added</summary>
+<summary>Functionality added</summary>
 <br/>
 
-The app must have the following functionalities
+The app has the following functionalities:
 
-- Initially, values in the inputs elements should be empty and the selected value in the select element should be the first item in the given fontSizesOptionsList
-- When non-empty values are provided for **Image Url**, **Top Text**, **Bottom Text**, and **Font Size** and the **Generate** button is clicked
-  - The Image URL that has been provided should be applied as a background-image for the generated meme
-  - The given Top and Bottom text values should be at the top and bottom of the generated meme
-  - The selected font size value should be applied for both top and bottom text of the generated meme
+- Initially, values in the input elements are empty and the selected value in the select element is the first item in the given fontSizesOptionsList.
+- When non-empty values are provided for **Image Url**, **Top Text**, **Bottom Text**, and **Font Size** and the **Generate** button is clicked:
+  - The Image URL provided is applied as a background-image for the generated meme.
+  - The given Top and Bottom text values appear at the top and bottom of the generated meme.
+  - The selected font size value is applied to both the top and bottom text of the generated meme.
 
 </details>
 
@@ -48,7 +41,7 @@ The app must have the following functionalities
 <summary>Implementation Files</summary>
 <br/>
 
-Use these files to complete the implementation:
+The following files were used to complete the implementation:
 
 - `src/App.js`
 - `src/components/MemeGenerator/index.js`
@@ -63,10 +56,10 @@ Use these files to complete the implementation:
 
 <br/>
 
-**The following instructions are required for the tests to pass**
+**The following instructions are required for the tests to pass:**
 
-- The HTML container element for the generated meme should have `data-testid` attribute value as **meme**
-- When Styled Components are used, `data-testid` attribute should be used instead of `testid` attribute
+- The HTML container element for the generated meme should have a `data-testid` attribute value as **meme**.
+- When Styled Components are used, `data-testid` attribute should be used instead of `testid` attribute.
 
 </details>
 
